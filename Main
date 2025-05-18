@@ -1,0 +1,20 @@
+import random
+
+print('---- Bem vindo ao Gerador de Senhas 2000 do José :D ----')
+
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@$&*().,%#^?0123456789'
+
+Qtd = input('Quantidade de senhas para serem geradas: ')
+Qtd = int(Qtd)
+
+tamanho = input('Selecione o tamanho das suas senhas: ')
+tamanho = int(tamanho)
+
+print('\nSenhas Geradas: ')
+
+for pwd in range(Qtd):
+    senhas = ''
+    for c in range(tamanho):
+        senhas += random.choice(chars)
+
+    print(senhas)
