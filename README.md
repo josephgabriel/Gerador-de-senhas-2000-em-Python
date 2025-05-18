@@ -1,0 +1,1 @@
+O criador de senhas 2000 foi feito utilizando a biblioteca "random" da linguagem de programação Python, ele recebe dois valores do usuario, um que representa a quantidade de senhas que o mesmo preferir gerar e o outro recebe o valor que vai ser o tamanha de cada uma das senhas criadas.
